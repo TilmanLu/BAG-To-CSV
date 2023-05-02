@@ -7,7 +7,7 @@ decisions. The TXT files are saved in a folder with the corresponding name of th
 example, the PDF file "BAG 12.12.2021.pdf" will be saved as a TXT file in a folder called "BAG 
 12.12.2021". The script also saves the relevant information from each decision in a CSV file with 
 columns such as "Gericht", "Senat", "Datum", "Entscheidungsstichworte", and "Leitsatz".
-It includes an executable file made with `pyinstaller` that can be used on Windows.
+
 The future implications of this project are significant, as the collected data can be used for Natural 
 Language Processing (NLP) and Machine Learning (ML) algorithms. With this data, the goal is to 
 develop an automated system that can analyze the structure of labor law decisions and apply them to 
@@ -40,10 +40,8 @@ To run the script, open a command prompt or terminal window, navigate to the fol
 script is saved, and type the following command:
 
 ```
-python bag_urteile_scraper.py
+python main.py
 ```
-
-You can also run the executable file `BAG-To-CSV.exe` on Windows.
 
 After starting the script, a window will open in which you can enter how many pages of the website 
 you want to scrape for the decisions. For each page the script will scrape all 50 decisions.
