@@ -45,11 +45,9 @@ python main.py
 
 After starting the script, a window will open in which you can enter how many pages of the website 
 you want to scrape for the decisions. For each page the script will scrape all 50 decisions.
-After running the script, all the downloaded PDF files will be saved in a folder called "PDFs", which 
-will be created in the same folder where the script is saved. The processed TXT files will be saved in a 
-subfolder called "BAG Urteile processed". In the same folder as to where your python script is located 
-as well as the executable after running the program you will find a .csv file with all the above-
-mentioned information. This .csv file can be opened with applications such as Excel.
+After running the script, all the downloaded PDF and the corresponding .txt in subfolders in a folder called "BAG Urteile processed", which 
+will be created in the same folder where the script is saved. You will find a .csv file with all the above-
+mentioned information in the same folder where your script is located. This .csv file can be opened with applications such as Excel.
 
 ## Notes
 
