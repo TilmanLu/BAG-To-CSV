@@ -43,7 +43,7 @@ script is saved, and type the following command:
 python bag_urteile_scraper.py
 ```
 
-You can also run the executable file `bag_urteile_to_csv.exe` on Windows.
+You can also run the executable file `BAG-To-CSV.exe` on Windows.
 
 After starting the script, a window will open in which you can enter how many pages of the website 
 you want to scrape for the decisions. For each page the script will scrape all 50 decisions.
